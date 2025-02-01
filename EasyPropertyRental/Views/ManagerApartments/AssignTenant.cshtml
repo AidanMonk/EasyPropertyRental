@@ -1,0 +1,27 @@
+﻿@model EasyPropertyRental.Models.ViewModels.AssignTenantViewModel
+
+@{
+    ViewData["Title"] = "Assign Tenant";
+}
+
+<h1>Assign Tenant to Apartment</h1>
+
+<div class="mb-3">
+    <label class="form-label"><strong>Apartment:</strong></label>
+    <span>@Model.ApartmentInfo</span>
+</div>
+
+<form asp-action="AssignTenant" method="post">
+    <input type="hidden" asp-for="ApartmentId" />
+
+    <div class="mb-3">
+        <label asp-for="SelectedTenantId" class="form-label">Select Tenant</label>
+        <select asp-for="SelectedTenantId" class="form-select" asp-items="Model.TenantList">
+            <option value="">-- Select a Tenant --</option>
+        </select>
+        <span asp-validation-for="SelectedTenantId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Assign Tenant</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

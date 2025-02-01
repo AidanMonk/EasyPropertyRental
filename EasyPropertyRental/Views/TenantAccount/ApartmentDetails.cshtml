@@ -1,0 +1,29 @@
+﻿@model EasyPropertyRental.Models.Apartment
+
+@{
+    ViewData["Title"] = "Apartment Details";
+}
+
+<div class="container">
+    <h1>Apartment Details</h1>
+
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-warning">
+            @ViewBag.Message
+        </div>
+    }
+    else
+    {
+        <!-- Display apartment details -->
+        <div>
+            <h3>@Model.Building.Name</h3>
+            <p>@Model.Building.Address</p>
+            <p><strong>Unit:</strong> @Model.UnitNumber</p>
+            <p><strong>Rent:</strong> @Model.Rent</p>
+        </div>
+    }
+
+    <br />
+    <a class="btn btn-secondary" href="@Url.Action("Index", "Apartments")">Back to Apartments</a>
+</div>

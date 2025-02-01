@@ -1,0 +1,53 @@
+﻿@model IEnumerable<EasyPropertyRental.Models.Tenant>
+
+@{
+    ViewData["Title"] = "Tenants";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <p class="lead">Manage your tenants efficiently.</p>
+        <a asp-action="AddManager" class="btn btn-primary">+ Add Tenant</a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.FirstName)</th>
+                    <th>@Html.DisplayNameFor(model => model.LastName)</th>
+                    <th>@Html.DisplayNameFor(model => model.Email)</th>
+                    <th>@Html.DisplayNameFor(model => model.Phone)</th>
+                    <th class="text-center">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Any())
+                {
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.FirstName)</td>
+                            <td>@Html.DisplayFor(modelItem => item.LastName)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Phone)</td>
+                            <td class="text-center">
+                                <a asp-action="Edit" asp-route-id="@item.TenantId" class="btn btn-sm btn-warning me-2">Edit</a>
+                                <a asp-action="Details" asp-route-id="@item.TenantId" class="btn btn-sm btn-info me-2">Details</a>
+                                <a asp-action="Delete" asp-route-id="@item.TenantId" class="btn btn-sm btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5" class="text-center text-muted">No tenants found.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,54 @@
+﻿@using EasyPropertyRental.Models.ViewModels
+@model Message
+
+@foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+{
+    <div class="error">@error.ErrorMessage</div>
+}
+
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+    </div>
+}
+
+<h2>Send Message</h2>
+
+<form asp-action="Send" method="post">
+    <!-- Hidden Sender Information -->
+    <input type="hidden" name="SenderType" value="@ViewData["SenderType"]" />
+    <input type="hidden" name="SenderId" value="@ViewData["SenderId"]" />
+
+    <!-- Hidden Receiver Type -->
+    <input type="hidden" name="ReceiverType" value="@ViewData["ReceiverType"]" />
+
+    <!-- Receiver Selection -->
+    <div class="form-group">
+        <label for="ReceiverId">Select Receiver</label>
+        <select asp-for="ReceiverId" class="form-control">
+            @if (ViewData["ReceiverList"] != null)
+            {
+                foreach (var receiver in (List<ReceiverDto>)ViewData["ReceiverList"])
+                {
+                    <option value="@receiver.Id">@receiver.Name</option>
+                }
+            }
+            else
+            {
+                <option value="">No receivers available</option>
+            }
+        </select>
+    </div>
+
+    <!-- Message Content -->
+    <div class="form-group">
+        <label for="Content">Message Content</label>
+        <textarea asp-for="Content" class="form-control"></textarea>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary">Send Message</button>
+</form>
+

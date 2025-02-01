@@ -1,0 +1,93 @@
+﻿@model IEnumerable<EasyPropertyRental.Models.Apartment>
+
+@{
+    ViewData["Title"] = "Available Apartments";
+}
+
+<div class="container">
+    <h1>Available Apartments</h1>
+
+    <!-- Search form -->
+    <form method="get" asp-action="Index">
+        <div class="row mb-3">
+            <!-- Min Rent -->
+            <div class="col">
+                <label for="minRent">Min Rent</label>
+                <input type="number" step="0.01" name="minRent" id="minRent" class="form-control" placeholder="Min Rent" value="@ViewData["MinRent"]" />
+            </div>
+
+            <!-- Max Rent -->
+            <div class="col">
+                <label for="maxRent">Max Rent</label>
+                <input type="number" step="0.01" name="maxRent" id="maxRent" class="form-control" placeholder="Max Rent" value="@ViewData["MaxRent"]" />
+            </div>
+
+            <!-- Min Bedrooms -->
+            <div class="col">
+                <label for="minBedrooms">Min Bedrooms</label>
+                <input type="number" name="minBedrooms" id="minBedrooms" class="form-control" placeholder="Min Bedrooms" value="@ViewData["MinBedrooms"]" />
+            </div>
+
+            <!-- Max Bedrooms -->
+            <div class="col">
+                <label for="maxBedrooms">Max Bedrooms</label>
+                <input type="number" name="maxBedrooms" id="maxBedrooms" class="form-control" placeholder="Max Bedrooms" value="@ViewData["MaxBedrooms"]" />
+            </div>
+
+            <!-- Min Bathrooms -->
+            <div class="col">
+                <label for="minBathrooms">Min Bathrooms</label>
+                <input type="number" name="minBathrooms" id="minBathrooms" class="form-control" placeholder="Min Bathrooms" value="@ViewData["MinBathrooms"]" />
+            </div>
+
+            <!-- Max Bathrooms -->
+            <div class="col">
+                <label for="maxBathrooms">Max Bathrooms</label>
+                <input type="number" name="maxBathrooms" id="maxBathrooms" class="form-control" placeholder="Max Bathrooms" value="@ViewData["MaxBathrooms"]" />
+            </div>
+
+            <div class="col">
+                <button type="submit" class="btn btn-primary mt-4">Search</button>
+            </div>
+        </div>
+    </form>
+
+    @if (Model.Any())
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.Building.Name)</th>
+                    <th>@Html.DisplayNameFor(model => model.UnitNumber)</th>
+                    <th>@Html.DisplayNameFor(model => model.Floor)</th>
+                    <th>@Html.DisplayNameFor(model => model.Bedrooms)</th>
+                    <th>@Html.DisplayNameFor(model => model.Bathrooms)</th>
+                    <th>@Html.DisplayNameFor(model => model.Rent)</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Building.Name)</td>
+                        <td>@Html.DisplayFor(modelItem => item.UnitNumber)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Floor)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Bedrooms)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Bathrooms)</td>
+                        <td>@String.Format("{0:C}", item.Rent)</td>
+                        <td>
+                            <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@item.ApartmentId">Details</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No available apartments at the moment.</p>
+    }
+</div>
+
+

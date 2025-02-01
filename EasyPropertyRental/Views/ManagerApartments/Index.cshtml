@@ -1,0 +1,56 @@
+﻿@model IEnumerable<EasyPropertyRental.Models.Apartment>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Building)</th>
+            <th>@Html.DisplayNameFor(model => model.UnitNumber)</th>
+            <th>@Html.DisplayNameFor(model => model.Floor)</th>
+            <th>@Html.DisplayNameFor(model => model.Bedrooms)</th>
+            <th>@Html.DisplayNameFor(model => model.Bathrooms)</th>
+            <th>@Html.DisplayNameFor(model => model.Rent)</th>
+            <th>Tenant</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Building.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.UnitNumber)</td>
+                <td>@Html.DisplayFor(modelItem => item.Floor)</td>
+                <td>@Html.DisplayFor(modelItem => item.Bedrooms)</td>
+                <td>@Html.DisplayFor(modelItem => item.Bathrooms)</td>
+                <td>@Html.DisplayFor(modelItem => item.Rent)</td>
+                <td>
+                    @if (item.Tenants.FirstOrDefault() != null)
+                    {
+                        @($"{item.Tenants.FirstOrDefault().FirstName} {item.Tenants.FirstOrDefault().LastName}")
+                    }
+                    else
+                    {
+                        <span>No tenant assigned</span>
+                    }
+                </td>
+
+                <td>
+                    <a asp-action="AssignTenant" asp-route-id="@item.ApartmentId">Assign Tenant</a> |
+                    <a asp-action="Edit" asp-route-id="@item.ApartmentId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ApartmentId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ApartmentId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

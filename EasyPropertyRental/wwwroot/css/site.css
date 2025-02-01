@@ -1,0 +1,159 @@
+/* General styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+/* Form header */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #4e73df;
+}
+
+h4 {
+    font-size: 1.25rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+/* Form group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    font-size: 1rem;
+    color: #495057;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Input fields */
+input.form-control {
+    height: 40px;
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+    /* Input focus */
+    input.form-control:focus {
+        border-color: #4e73df;
+        outline: none;
+        background-color: #fff;
+    }
+
+/* Validation messages */
+.text-danger {
+    font-size: 0.875rem;
+    color: #dc3545;
+    margin-top: 5px;
+}
+
+/* Submit button */
+.btn-primary {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .btn-primary:hover {
+        background-color: #2e59d9;
+    }
+
+/* Back link */
+a {
+    color: #4e73df;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Form layout */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.col-md-4 {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+}
+
+    .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+        box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    }
+
+    .login-views {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+    }
+
+    .property-button, .manager-button, .tenant-button, .search-apartment-button {
+        text-decoration: none;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        margin: 30px;
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        border-radius: 8px;
+        cursor: pointer;
+        float: left
+    }
+    .property-button {
+        background-color: #339bff;
+    }
+    .manager-button {
+        background-color: #ffcb72;
+    }
+    .tenant-button {
+        background-color: #ff8172;
+    }
+    .search-apartment-button {
+        background-color: #9eff8e;
+    }
+
+    img {
+        width: 75%;
+        height: 75%;
+        object-fit: cover;
+    }
+

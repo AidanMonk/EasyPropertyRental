@@ -1,0 +1,89 @@
+﻿@model IEnumerable<EasyPropertyRental.Models.Message>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SenderType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReceiverType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SentAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Receiver)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Receiver1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReceiverNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sender1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SenderNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SenderType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReceiverType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SentAt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Receiver.PmId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Receiver1.TenantId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReceiverNavigation.PoId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sender.PmId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sender1.TenantId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SenderNavigation.PoId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MessageId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MessageId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MessageId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,16 @@
+﻿@model List<string>
+
+<h2>Select Receiver Type</h2>
+
+<form asp-action="SelectReceiverType" method="post">
+    <div class="form-group">
+        <label for="receiverType">Choose a Receiver Type:</label>
+        <select id="receiverType" name="receiverType" class="form-control">
+            @foreach (var type in Model)
+            {
+                <option value="@type">@type</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Next</button>
+</form>

@@ -1,0 +1,68 @@
+﻿@model IEnumerable<EasyPropertyRental.Models.ViewModels.ApartmentWithTenantViewModel>
+
+
+@{
+    ViewData["Title"] = "Apartments";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Unit Number</th>
+            <th>Floor</th>
+            <th>Bedrooms</th>
+            <th>Bathrooms</th>
+            <th>Rent</th>
+            <th>Building Name</th>
+            <th>Tenant</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (!Model.Any())
+        {
+            <tr>
+                <td colspan="7" class="text-center">No apartments found.</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var apartment in Model)
+            {
+                <tr>
+                    <td>@apartment.UnitNumber</td>
+                    <td>@apartment.Floor</td>
+                    <td>@apartment.Bedrooms</td>
+                    <td>@apartment.Bathrooms</td>
+                    <td>@apartment.Rent?.ToString("C")</td>
+                    <td>@apartment.BuildingName</td>
+                    <td>
+                        @if (apartment.TenantNames.Any())
+                        {
+                            <ul>
+                                @foreach (var tenant in apartment.TenantNames)
+                                {
+                                    <li>@tenant</li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <span>No tenants</span>
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@apartment.ApartmentId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@apartment.ApartmentId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@apartment.ApartmentId">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

@@ -1,0 +1,313 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EasyPropertyRental
+build_property.RootNamespace = EasyPropertyRental
+build_property.ProjectDir = C:\Users\Aidan\source\repos\EasyPropertyRental\EasyPropertyRental\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Aidan\source\repos\EasyPropertyRental\EasyPropertyRental
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Apartments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRtZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Apartments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBhcnRtZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Appointments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Appointments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Appointments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Appointments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Appointments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Home/Links_Dev.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaW5rc19EZXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/ManagerApartments/AssignTenant.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlckFwYXJ0bWVudHNcQXNzaWduVGVuYW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/ManagerApartments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlckFwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/ManagerApartments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlckFwYXJ0bWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/ManagerApartments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlckFwYXJ0bWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/ManagerApartments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlckFwYXJ0bWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/ManagerApartments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlckFwYXJ0bWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/ManagerBuildings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlckJ1aWxkaW5nc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/ManagerBuildings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlckJ1aWxkaW5nc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Messages/ChooseAction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcQ2hvb3NlQWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Messages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Messages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Messages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Messages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Messages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Messages/SelectReceiverType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcU2VsZWN0UmVjZWl2ZXJUeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Messages/send.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcc2VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/OwnerApartments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJBcGFydG1lbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/OwnerApartments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJBcGFydG1lbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/OwnerApartments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJBcGFydG1lbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/OwnerApartments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJBcGFydG1lbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/OwnerApartments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJBcGFydG1lbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/OwnerBuildings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJCdWlsZGluZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/OwnerBuildings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJCdWlsZGluZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/OwnerBuildings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJCdWlsZGluZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/OwnerBuildings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJCdWlsZGluZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/OwnerBuildings/EditManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJCdWlsZGluZ3NcRWRpdE1hbmFnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/OwnerBuildings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJCdWlsZGluZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyManagerAccount/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlNYW5hZ2VyQWNjb3VudFxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyManagerAccount/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlNYW5hZ2VyQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyManagerAccount/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlNYW5hZ2VyQWNjb3VudFxSZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyManagers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlNYW5hZ2Vyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyManagers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlNYW5hZ2Vyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyManagers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlNYW5hZ2Vyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyManagers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlNYW5hZ2Vyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyManagers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlNYW5hZ2Vyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyManagers/ManagePropertyManagers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlNYW5hZ2Vyc1xNYW5hZ2VQcm9wZXJ0eU1hbmFnZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyOwnerAccount/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlPd25lckFjY291bnRcSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyOwnerAccount/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlPd25lckFjY291bnRcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyOwnerAccount/ManageBuildings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlPd25lckFjY291bnRcTWFuYWdlQnVpbGRpbmdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyOwnerAccount/ManagePropertyManagers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlPd25lckFjY291bnRcTWFuYWdlUHJvcGVydHlNYW5hZ2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyOwnerAccount/ManageTenants.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlPd25lckFjY291bnRcTWFuYWdlVGVuYW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyOwnerAccount/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlPd25lckFjY291bnRcUmVnaXN0cmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyOwners/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlPd25lcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyOwners/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlPd25lcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyOwners/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlPd25lcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyOwners/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlPd25lcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/PropertyOwners/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlPd25lcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/TenantAccount/ApartmentDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVuYW50QWNjb3VudFxBcGFydG1lbnREZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/TenantAccount/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVuYW50QWNjb3VudFxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/TenantAccount/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVuYW50QWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Tenants/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVuYW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Tenants/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVuYW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Tenants/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVuYW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Tenants/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVuYW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Tenants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVuYW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aidan/source/repos/EasyPropertyRental/EasyPropertyRental/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0au3l3nvu7

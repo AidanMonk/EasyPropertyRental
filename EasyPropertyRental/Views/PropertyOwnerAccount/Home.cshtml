@@ -1,0 +1,49 @@
+﻿<div class="container mt-4">
+    <div class="text-center mb-4">
+        <h4 class="fw-bold">Hello, @ViewBag.Name!</h4>
+        <p class="text-muted">What would you like to manage today?</p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+            <div class="card h-100 text-center shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Property Managers</h5>
+                    <p class="card-text">Oversee property managers and their responsibilities.</p>
+                    <a asp-controller="PropertyManagers" asp-action="Index" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 text-center shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Buildings</h5>
+                    <p class="card-text">Access and manage building details and properties.</p>
+                    <a asp-controller="OwnerBuildings" asp-action="Index" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 text-center shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Apartments</h5>
+                    <p class="card-text">Explore and manage apartment listings and their details.</p>
+                    <a asp-controller="OwnerApartments" asp-action="Index" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col">
+            <div class="card h-100 text-center shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Messages</h5>
+                    <p class="card-text">See your messages.</p>
+                    <a asp-controller="Tenants" asp-action="Index" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

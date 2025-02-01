@@ -1,0 +1,43 @@
+﻿@model IEnumerable<EasyPropertyRental.Models.Building>
+
+@{
+    ViewData["Title"] = "Buildings Managed by You";
+}
+
+<div class="container">
+    <h1>Buildings List</h1>
+
+    @if (Model.Any())
+    {
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Building Name</th>
+                    <th>Address</th>
+                    <th>Property Manager</th>
+                    <th>Number of Apartments</th> <!-- Example additional data -->
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var building in Model)
+                {
+                    <tr>
+                        <td>@building.Name</td>
+                        <td>@building.Address</td>
+                        <td>@building.Pm?.FirstName @building.Pm?.LastName</td>
+                        <td>@building.Apartments.Count()</td> <!-- Display the number of apartments -->
+                        <td>
+                            <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@building.BuildingId">Details</a>
+                            <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@building.BuildingId">Edit</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No buildings found for your property manager.</p>
+    }
+</div>
